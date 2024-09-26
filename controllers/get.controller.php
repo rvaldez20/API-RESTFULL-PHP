@@ -2,8 +2,17 @@
 require_once "models/get.model.php";
 
 class GetController{
+   //? getData NO filter
    static public function getData($table, $select) {
       $response = GetModel::getData($table, $select);
+
+      $return = new GetController();
+      $return -> fncResponse($response);
+   }
+
+   //? getDataFilter with filter
+   static public function getDataFilter($table, $select, $linkTo, $equalTo) {
+      $response = GetModel::getDataFilter($table, $select, $linkTo, $equalTo);
 
       $return = new GetController();
       $return -> fncResponse($response);

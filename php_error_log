@@ -385,3 +385,159 @@ Stack trace:
 #5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
 #6 {main}
   thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[26-Sep-2024 04:24:02 Europe/Berlin] PHP Warning:  Undefined variable $linkTo in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 13
+[26-Sep-2024 04:24:02 Europe/Berlin] PHP Warning:  Undefined variable $equalTo in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 13
+[26-Sep-2024 04:24:32 Europe/Berlin] PHP Warning:  Undefined variable $linkTo in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 13
+[26-Sep-2024 04:24:32 Europe/Berlin] PHP Warning:  Undefined variable $equalTo in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 13
+[26-Sep-2024 04:26:06 Europe/Berlin] PHP Warning:  Undefined variable $linkTo in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 13
+[26-Sep-2024 04:26:06 Europe/Berlin] PHP Warning:  Undefined variable $equalTo in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 13
+[26-Sep-2024 04:28:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(19): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:29:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(22): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:29:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(22): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:31:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:31:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:33:54 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:34:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:38:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:20
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(20): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(15): GetModel::getDataFilter('courses', 'id_course,title...', 'id_course', 'Desarrollo Web ...')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(14): GetController::getDataFilter('courses', 'id_course,title...', 'id_course', 'Desarrollo Web ...')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 20
+[26-Sep-2024 04:38:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:39:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:20
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(20): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(15): GetModel::getDataFilter('courses', 'id_course,title...', 'id_course', 'Desarrollo Web ...')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(14): GetController::getDataFilter('courses', 'id_course,title...', 'id_course', 'Desarrollo Web ...')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 20
+[26-Sep-2024 04:39:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:40:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:20
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(20): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(15): GetModel::getDataFilter('courses', 'id_course,title...', 'id_course', 'Desarrollo Web ...')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(14): GetController::getDataFilter('courses', 'id_course,title...', 'id_course', 'Desarrollo Web ...')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 20
+[26-Sep-2024 04:41:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:41:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
+[26-Sep-2024 04:41:57 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(10): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(7): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(17): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 10
