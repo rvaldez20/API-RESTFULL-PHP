@@ -118,3 +118,270 @@ Stack trace:
 #5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
 #6 {main}
   thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 04:20:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('favicon.ico')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(6): GetController::getData('favicon.ico')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:34:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.users' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('users')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(6): GetController::getData('users')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:35:00 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('favicon.ico')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(6): GetController::getData('favicon.ico')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:35:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.users' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('users')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(6): GetController::getData('users')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:48:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=id_prodct,%20name_product' at line 1 in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('products?select...', 'id_product, nam...')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(10): GetController::getData('products?select...', 'id_product, nam...')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:48:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=id_product,%20name_product' at line 1 in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('products?select...', 'id_product, nam...')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(10): GetController::getData('products?select...', 'id_product, nam...')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:49:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=id_product,%20name_product' at line 1 in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('products?select...', 'id_product, nam...')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(10): GetController::getData('products?select...', 'id_product, nam...')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:50:26 Europe/Berlin] PHP Warning:  Undefined array key "select" in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 6
+[24-Sep-2024 05:50:26 Europe/Berlin] PHP Warning:  Undefined array key "select" in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 6
+[24-Sep-2024 05:51:21 Europe/Berlin] PHP Fatal error:  Cannot use [] for reading in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 6
+[24-Sep-2024 05:51:21 Europe/Berlin] PHP Fatal error:  Cannot use [] for reading in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 6
+[24-Sep-2024 05:52:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=id_product' at line 1 in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('products?select...', 'id_product')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(11): GetController::getData('products?select...', 'id_product')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:52:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=id_product' at line 1 in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('products?select...', 'id_product')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(11): GetController::getData('products?select...', 'id_product')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:52:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(11): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:53:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(11): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:53:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=id_product' at line 1 in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('products?select...', 'id_product')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(11): GetController::getData('products?select...', 'id_product')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:53:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(11): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 05:54:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=id_product' at line 1 in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('products?select...', 'id_product')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(11): GetController::getData('products?select...', 'id_product')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 06:04:15 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:04:16 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:06:26 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:06:44 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:07:56 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:08:08 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:08:28 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:08:36 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:26:21 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[24-Sep-2024 06:26:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.array' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData(Array, '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(16): GetController::getData(Array, '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 06:26:22 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:26:22 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[24-Sep-2024 06:26:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.array' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData(Array, '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(16): GetController::getData(Array, '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 06:26:28 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[24-Sep-2024 06:26:28 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.array' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData(Array, '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(16): GetController::getData(Array, '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 06:26:58 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[24-Sep-2024 06:26:58 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[24-Sep-2024 06:26:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.array' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData(Array, Array)
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(16): GetController::getData(Array, Array)
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 06:26:59 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:26:59 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[24-Sep-2024 06:26:59 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[24-Sep-2024 06:26:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.array' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData(Array, Array)
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(16): GetController::getData(Array, Array)
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[24-Sep-2024 06:27:13 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:27:56 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:28:24 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[24-Sep-2024 06:28:28 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\apirest-dinamica\routes\services\get.php on line 5
+[26-Sep-2024 03:14:43 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[26-Sep-2024 03:14:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.array' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData(Array, '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(14): GetController::getData(Array, '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[26-Sep-2024 03:14:43 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 7
+[26-Sep-2024 03:14:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.array' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData(Array, '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(14): GetController::getData(Array, '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[26-Sep-2024 03:17:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(13): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[26-Sep-2024 03:17:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('favicon.ico', '*')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(13): GetController::getData('favicon.ico', '*')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
+[26-Sep-2024 03:20:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database2.courses' doesn't exist in C:\xampp\htdocs\apirest-dinamica\models\get.model.php:9
+Stack trace:
+#0 C:\xampp\htdocs\apirest-dinamica\models\get.model.php(9): PDOStatement->execute()
+#1 C:\xampp\htdocs\apirest-dinamica\controllers\get.controller.php(6): GetModel::getData('courses', 'id_course,title...')
+#2 C:\xampp\htdocs\apirest-dinamica\routes\services\get.php(13): GetController::getData('courses', 'id_course,title...')
+#3 C:\xampp\htdocs\apirest-dinamica\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apirest-dinamica\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apirest-dinamica\index.php(13): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apirest-dinamica\models\get.model.php on line 9
